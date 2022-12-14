@@ -1,0 +1,31 @@
+.app-container {
+  margin: auto;
+  max-width: 707px;
+  margin-bottom: 20px;
+}
+
+a:visited {
+  color: rgb(85, 26, 139);
+  &:hover {
+    color: darken(rgb(85, 26, 139), 10%);
+    text-decoration: underline;
+  }
+}
+
+.choose-tool {
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+}
